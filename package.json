@@ -1,0 +1,24 @@
+{
+  "name": "webhook-tester",
+  "version": "1.0.0",
+  "description": "dummy console echo server that dumps request information and creates a localtunnel.me endpoint",
+  "main": "debugWebserver.js",
+  "dependencies": {
+    "localtunnel": "^1.5.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "webhook",
+    "localtunnel",
+    "test"
+  ],
+  "preferGlobal": true,
+  "bin": {
+  	"webhook-tester": "./debugWebserver.js"
+  },
+  "author": "Davis Clark",
+  "license": "ISC"
+}
